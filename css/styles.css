@@ -395,3 +395,43 @@ a {
     font-size: 1.7rem;
   }
 }
+
+/* Media objects */
+
+.media {
+  display: flex;
+}
+
+.media__image {
+  margin-top: 1rem;
+}
+
+.media__body {
+  margin-left: 2rem;
+}
+
+.media__title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-top: 0;
+  /* color: #fff; */
+  text-transform: capitalize;
+}
+
+.media__text {
+  font-size: 2rem;
+  font-weight: 300;
+  /* color: #7b858b; */
+  margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .media__title {
+    font-size: 1.8rem;
+  }
+
+  .media__text {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+}
