@@ -24,6 +24,7 @@
 
 ::selection {
   background: var(--color-primary);
+  color: #fff;
 }
 
 html {
@@ -454,15 +455,7 @@ a {
 
 .media__title {
   margin-top: 0;
-  color: #fff;
 }
-
-/* .media__text {
-  font-size: 2rem;
-  font-weight: 300;
-  color: #7b858b;
-  margin-top: 0.5rem;
-} */
 
 @media screen and (min-width: 1024px) {
   .media__title {
@@ -682,6 +675,7 @@ a {
 
 .block__header {
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .block__heading {
@@ -691,6 +685,12 @@ a {
 .block--dark {
   background: #000;
   color: #7b858b;
+}
+
+.block--dark h1,
+.block--dark h2,
+.block--dark h3 {
+  color: #fff;
 }
 
 .block--dark .block__heading {
